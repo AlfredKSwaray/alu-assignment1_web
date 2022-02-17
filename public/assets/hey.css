@@ -1,0 +1,98 @@
+.title{
+    text-align: center;
+    font-size: 25px;
+    height: 400px;
+    background-position: bottom;
+    color:whitesmoke;
+    font-weight:bold;
+    background-image: url("images/pngtree-retro-fist-industrial-revolution-struggle-blue-background-picture-image_1177086.jpg");
+    /* background-image: url("https://png.pngtree.com/background/20210712/original/pngtree-retro-fist-industrial-revolution-struggle-blue-background-picture-image_1177086.jpg"); */
+    }
+
+
+.footer {
+    position: bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:80px;
+    background-color:light grey;
+    color: black;
+    text-align: center;
+    font-weight:bold;
+    font-size: 20px;
+    }
+.title.capitalize{
+    text-transform: capitalize;
+}
+body{
+    background-color: light grey;
+}
+p.description {
+    font-variant: small-caps;
+    font-weight: bold;
+    font-style:italic;
+    text-align: center;
+}
+p.expansion{
+    text-align: left;
+    font-weight:lighter;
+    font-size:15px;
+    word-wrap: break-world;
+}
+img{
+    float:left;
+    width:40px;
+    margin-right:10px;
+    word-wrap: break-world;
+}
+
+
+@keyframes example {
+    from {background-color: rgb(69, 155, 236);}
+    to {background-color: yellow;}
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color:light grey;
+    padding: 2px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid blue;
+    padding: 5px;
+    font-size: 8px;
+    text-align: center;
+}
+p8.footer{
+    font-variant: small-caps;
+    font-weight: bold;
+    font-style:italic;
+    text-align: center;
+}
+
+h1{
+    font-size: 20pt;
+    text-shadow: 2px 1px 0.5px grey;
+    text-align: left;
+    font-style:italic;
+}
+
+
+h2{
+    font-size: 12pt;
+    text-shadow: 0px 0px 0.5px grey;
+    text-align: left;
+    font-style:italic;
+}
+
+h3{
+    font-size: 15pt;
+    font-weight: bold;
+    text-shadow: 0.5px 2px 1px grey;
+    text-align: left;
+    font-style:italic;
+}
